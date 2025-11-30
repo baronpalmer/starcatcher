@@ -1,0 +1,43 @@
+{
+  "base_chance": 1,
+  "difficulty": {
+    "decay": 1,
+    "extras": {
+      "flips_rotation_every_hit": false
+    },
+    "markers": {
+      "has_first_thin_marker": false,
+      "has_second_thin_marker": false
+    },
+    "penalty": 10,
+    "reward": 10,
+    "reward_thin": 25,
+    "speed": 12,
+    "treasure": {
+      "has_treasure": true,
+      "hit_reward": 15,
+      "loot": "starcatcher:treasure"
+    }
+  },
+  "fish": "upgrade_aquatic:lionfish",
+  "rarity": "rare",
+  "size_and_weight": {
+    "average_size_cm": 35.0,
+    "average_weight_grams": 1000.0,
+    "deviation_size_cm": 10.0,
+    "deviation_weight_grams": 250.0,
+    "golden_chance_percentage": 10,
+    "golden_state_increase": 20
+  },
+  "world_restrictions": {
+    "above_y": 50,
+    "below_y": 100,
+    "biomes_tags": [
+      "minecraft:warm_ocean",
+      "minecraft:lukewarm_ocean"
+    ],
+    "dimensions": [
+      "minecraft:overworld"
+    ]
+  }
+}
