@@ -7,7 +7,7 @@
   },
   "daytime": "day",
   "difficulty": {
-    "decay": 0,
+    "decay": 1,
     "extras": {
       "flips_rotation_every_hit": true
     },
